@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Html forms</h1>
+    <form action="tut21.html" method="get">
+        <label for="username">username: </label>
+        <input type="text" id="username" placeholder="username" required>
+        <br> <br>
+        <label for="password">password: </label>
+        <input type="text"  id="password" placeholder="password" required>
+        <br><br>
+        <label for="email">email</label>
+        <input type="text" id="email" placeholder="email" required>
+        <br>
+        <p>select your grnder</p>
+        <label for="male"> male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other">
+        <br><br>
+        <label for="age-group">select your age</label>
+        <select name="age-group-values" id="age-group">
+        <option value="5-10">5-10</option>
+        <option value="20-30">20-30</option>
+        </select>
+        <br>
+        <input type="submit" value="sign in">
+    </form>
+</body>
+</html>
